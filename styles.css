@@ -1,5 +1,5 @@
 body {
-    background-color: #6A94AD;
+    background-color: #6c6c6c;
     font-family: 'Gadugi', sans-serif;
   }
   nav {
@@ -47,12 +47,12 @@ body {
     width: 100vw;
     height: 30vh;
     padding-top: 3em;
-    background: url('https://images.unsplash.com/photo-1544219110-2bd30b345836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') center 75% no-repeat fixed;
+    background: url('https://images.unsplash.com/photo-1548016193-b9381233058c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') center 75% no-repeat fixed;
     background-size: cover;
   }
   .header-tag {
     text-align: center;
-    color: #A7B7C1;
+    color: #a4b6e0;
     text-shadow: 2px 2px 2px black;
   }
   h3.header-tag {
@@ -62,17 +62,21 @@ body {
   }
 
   h2 {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: darkred;
+font-family: 'hello honey - Personal Use'; 
+color: #60a5e7;
+font-size: 55pt;
 
   }
 
   .main {
-      text-align: center;
+      text-align: left;
+      font-family: 'DJB Stinky Marker'; 
+      color: #3f3e46;
   }
   #about {
       margin-top: 50px;
       display: inline-block;
+      
 
   }
   #about-picture {
@@ -85,12 +89,16 @@ color: darkred;
       height: 300px;
       width: 300px;
       object-fit: cover;
-      border-radius: 0.4em;
-      box-shadow: 2px 2px 2px black;
+      border-radius: 04em;
+      border-radius: 50%;
+           box-shadow: 2px 2px 2px black;
+ 
+      }
   }
 
   #about-content {
       width: 40vw;
-      float: right;
+      float: left;
+      
 
   }
